@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Azate\LaravelWargamingAuth;
+namespace MightyWizard83\LaravelWargamingAuth;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client as GuzzleClient;
@@ -10,7 +10,7 @@ use GuzzleHttp\Client as GuzzleClient;
 /**
  * Class WargamingAuth
  *
- * @package Azate\LaravelWargamingAuth
+ * @package MightyWizard83\LaravelWargamingAuth
  */
 final class WargamingAuth
 {
@@ -42,7 +42,7 @@ final class WargamingAuth
      */
     public function getOpenIdUrl(): string
     {
-        return 'https://ru.wargaming.net/id/openid/';
+        return 'https://eu.wargaming.net/id/openid/';
     }
 
     /**

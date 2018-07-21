@@ -1,5 +1,5 @@
 {
-    "name": "azate/laravel-wargaming-auth",
+    "name": "MightyWizard83/laravel-wargaming-auth",
     "description": "Laravel Wargaming Auth",
     "keywords": ["laravel", "wargaming", "auth"],
     "license": "MIT",
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Azate\\LaravelWargamingAuth\\": "src"
+            "MightyWizard83\\LaravelWargamingAuth\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Azate\\LaravelWargamingAuth\\WargamingServiceProvider"
+                "MightyWizard83\\LaravelWargamingAuth\\WargamingServiceProvider"
             ]
         }
     }
